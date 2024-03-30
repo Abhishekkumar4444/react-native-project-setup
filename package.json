@@ -1,0 +1,29 @@
+{
+  "name": "react-native-project-setup",
+  "version": "1.0.0",
+  "description": "This CLI tool streamlines the creation of a well-structured project directory for React Native applications. It automatically sets up the project's directory hierarchy, including essential folders and files, adhering to standard React Native project conventions. Simplify your project initialization process with ease.",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rn-setup": "./index.js"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekkumar4444/react-native-project-setup.git"
+  },
+  "keywords": [
+    "React Native, CLI, project setup, folder structure, automation, development, mobile app"
+  ],
+  "author": "Avishek kumar",
+  "license": "Apache-2.0",
+   "bugs": {
+    "url": "https://github.com/Abhishekkumar4444/react-native-project-setup/issues"
+  },
+  "homepage": "https://github.com/Abhishekkumar4444/react-native-project-setup#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
