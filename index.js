@@ -52,9 +52,10 @@ async function createProjectStructure() {
       await mkdirRecursive(dir); // Create directories recursively
       if (subdirs) {
         await Promise.all(subdirs.map(subdir => mkdirRecursive(`${dir}/${subdir}`))); // Create subdirectories recursively
-        if (dir !== 'src') {
-          await Promise.all(subdirs.map(subdir => writeFile(`${dir}/${subdir}/.gitkeep`, ''))); // Create .gitkeep in subdirectories
-        }
+      }
+      if (dir !== 'src') {
+        // Create index.js in subdirectories
+        await writeFile(`${dir}/index.js`, '');
       }
     } catch (error) {
       console.error(`Error creating ${dir}: ${error.message}`);
@@ -86,7 +87,7 @@ yargs.command({
   handler: async () => {
     try {
       await createProjectStructure();
-      console.log('Project structure created successfully.');
+      console.log('🎉 Project structure created successfully! 🚀');
     } catch (error) {
       console.error('Error creating project structure:', error);
     }
