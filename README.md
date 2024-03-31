@@ -1,6 +1,6 @@
 # react-native-project-setup
 
-This CLI tool streamlines the creation of a well-structured project directory for React Native applications. It automatically sets up the project's directory hierarchy, including essential folders and files, adhering to standard React Native project conventions. Simplify your project initialization process with ease.
+Accelerate your React Native project setup with this CLI tool designed to streamline the creation of a meticulously organized project directory. By automating the establishment of essential folders and files, this tool adheres to industry-standard React Native project conventions, saving you valuable time and effort during initialization. Whether you're starting a new project or enhancing an existing one, simplify your workflow and maintain consistency across your applications effortlessly.
 
 ## Installation
 
