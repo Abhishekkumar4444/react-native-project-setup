@@ -1,6 +1,6 @@
 {
   "name": "react-native-project-setup",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "This CLI tool streamlines the creation of a well-structured project directory for React Native applications. It automatically sets up the project's directory hierarchy, including essential folders and files, adhering to standard React Native project conventions. Simplify your project initialization process with ease.",
   "main": "index.js",
   "scripts": {
