@@ -2,7 +2,7 @@
 
 Accelerate your React Native project setup with this CLI tool designed to streamline the creation of a meticulously organized project directory. By automating the establishment of essential folders and files, this tool adheres to industry-standard React Native project conventions, saving you valuable time and effort during initialization. Whether you're starting a new project or enhancing an existing one, simplify your workflow and maintain consistency across your applications effortlessly.
 
-[![npm](https://img.shields.io/npm/v/react-native-project-setup)](https://www.npmjs.com/package/react-native-project-setup)
+[![npm](https://img.shields.io/npm/v/react-native-project-setup)](https://www.npmjs.com/package/react-native-project-setup)  [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16-brightgreen)](https://nodejs.org/en/)
 
 
 # Demo :movie_camera:
